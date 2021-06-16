@@ -1,0 +1,21 @@
+{
+    "name":"Name of the web application ",
+    "short_name": "Name of the web application displayed to the user if there is not enough space to display name",
+    "start_url": "Start URL of the web application",
+    "background_color": "Placeholder background color for the application page",
+    "theme_color": "Affects how the OS displays the site",
+    "display": "Developers preferred display mode for the website. Can be one of [fullscreen,standalone,minimal-ui,browser]",
+    "description":"Explain what the application does",
+    "icons": [
+        {
+            "src": "Path to image(192x192)",
+            "sizes":"192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "Path to image(512x512)",
+            "sizes":"512x512",
+            "type": "image/png"
+        }
+    ]
+}
